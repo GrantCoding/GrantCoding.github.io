@@ -79,6 +79,7 @@ export default function Navbar () {
                     </Link>
                   )
                 })}
+                {currentTheme==="light"}
                 {/* {currentTheme === "dark" ? (
                   <button
                     onClick={() => setTheme("light")}
