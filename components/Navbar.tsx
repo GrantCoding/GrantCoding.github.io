@@ -29,7 +29,7 @@ interface NavItem {
 
 export default function Navbar () {
     const { systemTheme, theme, setTheme } = useTheme()
-    const currentTheme = theme === "light" ? systemTheme : theme
+    const currentTheme = theme === setTheme("light") ? systemTheme : theme
     const pathname = usePathname()
     const [navbar, setNavbar] = useState(false)
     return (
@@ -79,6 +79,7 @@ export default function Navbar () {
                     </Link>
                   )
                 })}
+                
                 {/* {currentTheme === "dark" ? (
                   <button
                     onClick={() => setTheme("light")}
