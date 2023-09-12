@@ -6,6 +6,14 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
+    name: "Ecommerce Project",
+    description:
+      "Multiple API calls generated the user login. A mongoDB added, removed, and listed items within a user's cart. Cart features such as viewcart and checkout were included. Payment details are able to be changed.",
+    image: "/Ecommerce Project.png",
+    github: "https://github.com/GrantCoding/GrantsEcommerceProject",
+    link: "https://github.com/GrantCoding/GrantsEcommerceProject",
+  },
+  {
     name: "Instant Messenger",
     description:
       "Instant Messenger is a Java project that creates a client and a server for a user to join and communicate on the running server.",
